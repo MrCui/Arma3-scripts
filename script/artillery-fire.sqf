@@ -9,6 +9,7 @@
  * @param object  _artillery  火炮
  * @param int     _rounds     炮击次数
  * @param int 	  _random     误差半径
+ * @param int     _s          每次炮击打几发炮弹
  * @param string  _ammo       火炮弹药
  */
 params ["_postion", "_artillery", ["_rounds", 1], ["_random", 0], ["_s", 1], ["_ammo", false]];
