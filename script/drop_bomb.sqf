@@ -16,4 +16,5 @@ waitUntil {
 _Bomber selectWeapon _Weapon;
 while {_Bomber ammo _Weapon > 0;} do {
 	[_Bomber, _Weapon] call BIS_fnc_fire;
+	//sleep 0.1;
 };
